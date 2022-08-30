@@ -1,0 +1,10 @@
+name = "lapce-lua"
+version = "0.1.0"
+author = "Lapce"
+display-name = "Lua"
+description = "Lua for Lapce: powered by lua-language-server"
+wasm = "bin/lapce-lua.wasm"
+
+[configuration.diagnostics]
+default = true
+description = "Whether to show native lua-language-server diagnostics."
